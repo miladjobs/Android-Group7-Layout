@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         btn_more.setOnClickListener {
             Toast.makeText(this@MainActivity, "You clicked more.", Toast.LENGTH_SHORT).show()
         }
+
+        val btn_burger = findViewById<ImageButton>(R.id.imageButton7)
+        btn_burger.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked burger.", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {

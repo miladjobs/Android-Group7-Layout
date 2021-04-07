@@ -226,8 +226,8 @@
         app:layout_constraintVertical_bias="0.477" />
 
     <LinearLayout
-        android:layout_width="416dp"
-        android:layout_height="225dp"
+        android:layout_width="419dp"
+        android:layout_height="237dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -237,26 +237,26 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="148dp"
-            android:layout_height="110dp"
+            android:layout_height="137dp"
             android:layout_marginLeft="40dp">
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hot Dog"
+                android:text="Burger"
                 android:textColor="@color/white"
                 android:textSize="14dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.512"
+                app:layout_constraintHorizontal_bias="0.505"
                 app:layout_constraintStart_toStartOf="parent"
 
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.987" />
+                app:layout_constraintVertical_bias="0.864" />
 
             <ImageButton
-                android:id="@+id/imageButton13"
+                android:id="@+id/imageButton7"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="16dp"
@@ -265,7 +265,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/h" />
+                app:srcCompat="@drawable/hamburger" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
