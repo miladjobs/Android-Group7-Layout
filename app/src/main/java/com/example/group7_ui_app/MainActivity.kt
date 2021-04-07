@@ -3,7 +3,9 @@ package com.example.group7_ui_app
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageButton
+import android.widget.RelativeLayout
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +32,56 @@ class MainActivity : AppCompatActivity() {
         val btn_burger = findViewById<ImageButton>(R.id.imageButton7)
         btn_burger.setOnClickListener {
             Toast.makeText(this@MainActivity, "You clicked burger.", Toast.LENGTH_SHORT).show()
+        }
+        val btn_fries = findViewById<ImageButton>(R.id.imageButton8)
+        btn_fries.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked fries.", Toast.LENGTH_SHORT).show()
+        }
+        val btn_pizza2 = findViewById<ImageButton>(R.id.imageButton9)
+        btn_pizza2.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked pizaa.", Toast.LENGTH_SHORT).show()
+        }
+        val btn_hotdog2 = findViewById<ImageButton>(R.id.imageButton10)
+        btn_hotdog2.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked hot dog.", Toast.LENGTH_SHORT).show()
+        }
+
+        val x = findViewById<ImageButton>(R.id.imageButton11)
+        val y = findViewById<ImageButton>(R.id.imageButton12)
+        val z = findViewById<ImageButton>(R.id.imageButton13)
+        val k = findViewById<ImageButton>(R.id.imageButton14)
+        x.setOnClickListener {
+            x.setBackgroundResource(R.color.white)
+            y.setBackgroundResource(R.color.trans)
+            z.setBackgroundResource(R.color.trans)
+            k.setBackgroundResource(R.color.trans)
+        }
+
+        y.setOnClickListener {
+            y.setBackgroundResource(R.color.white)
+            x.setBackgroundResource(R.color.trans)
+            z.setBackgroundResource(R.color.trans)
+            k.setBackgroundResource(R.color.trans)
+        }
+        z.setOnClickListener {
+            z.setBackgroundResource(R.color.white)
+            x.setBackgroundResource(R.color.trans)
+            y.setBackgroundResource(R.color.trans)
+            k.setBackgroundResource(R.color.trans)
+        }
+        k.setOnClickListener {
+            k.setBackgroundResource(R.color.white)
+            x.setBackgroundResource(R.color.trans)
+            y.setBackgroundResource(R.color.trans)
+            z.setBackgroundResource(R.color.trans)
+        }
+
+
+
+
+        val btn_show_all = findViewById<Button>(R.id.Button10)
+        btn_show_all.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked show all.", Toast.LENGTH_SHORT).show()
         }
     }
 
